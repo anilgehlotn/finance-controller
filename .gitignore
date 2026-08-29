@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+data/*.csv
+.env
+.ruff_cache/
+.pytest_cache/
