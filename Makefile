@@ -3,7 +3,7 @@ export PYTHONPATH := src
 .PHONY: data eval app test lint
 
 data:
-	python -m recon.data
+	python -m recon.generate_data
 
 eval:
 	python -m recon.eval
